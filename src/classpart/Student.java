@@ -6,14 +6,6 @@ public class Student {
     int grade;
     String address;
 
-    public int getStudentID() {
-        return studentID;
-    }
-
-    public void setStudentID(int studentID) {
-        this.studentID = studentID;
-    }
-
     public String getStudentName() {
         return studentName;
     }
@@ -22,23 +14,15 @@ public class Student {
         this.studentName = studentName;
     }
 
-    public int getGrade() {
-        return grade;
-    }
-
-    public void setGrade(int grade) {
-        this.grade = grade;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
     public void showStudentInfo() {
         System.out.println(studentName + "," + address);
+    }
+
+    public static void main(String[] args) {
+        Student student = new Student();
+        student.studentName = "Ann";
+
+        System.out.println(student.studentName);
+        System.out.println(student.getStudentName());
     }
 }
