@@ -1,4 +1,4 @@
-package loopexample;
+package Phase1.loopexample;
 
 public class Ex6 {
     public static void main(String[] args) {

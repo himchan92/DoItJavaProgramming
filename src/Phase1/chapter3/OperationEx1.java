@@ -1,4 +1,4 @@
-package chapter3;
+package Phase1.chapter3;
 
 public class OperationEx1 {
     public static void main(String[] args) {

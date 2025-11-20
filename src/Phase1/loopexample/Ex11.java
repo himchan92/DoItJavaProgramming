@@ -1,4 +1,4 @@
-package loopexample;
+package Phase1.loopexample;
 
 import java.util.Scanner;
 

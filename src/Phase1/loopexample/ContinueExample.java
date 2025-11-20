@@ -1,4 +1,4 @@
-package loopexample;
+package Phase1.loopexample;
 
 public class ContinueExample {
     public static void main(String[] args) {
